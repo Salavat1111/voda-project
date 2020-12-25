@@ -1,0 +1,251 @@
+
+/*Remove default margin*/
+
+body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  
+}
+a:hover{color: #fff;}  /* при наведении */
+a {text-decoration: none; color: black;} 
+
+/*===========================================================================================*/
+
+body{
+    max-width: 1440px;
+    max-height: 779px;
+    font-family: Cera Pro, ;
+    background-color: #E9EFFC;
+}
+
+
+/*Верхнее Меню*/
+.container{
+
+}
+
+
+.text__conteiner{
+    width: 200px;
+    height: 300px;
+}
+#btl{
+background: #fae1be;
+border-radius: 70px;
+margin-bottom: 20px;
+}
+
+.header__block{
+    margin-top: 80px;
+    text-align: center;
+}
+.block__text{
+    display: inline-flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.block__item{
+    margin-left: 60px;
+    margin-bottom: 100px;
+    width: 762px;
+    height: 780px;
+    background-color:  #F5F8FF;
+}
+
+#wh{
+   margin-bottom: 20px;
+   color: #455273;
+   font-family: Cera Pro;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px; 
+   line-height: 30px;
+   text-align: center;
+}
+
+
+
+.text__conteiner p{
+    width: 200px;
+    color: #818FB3;
+    height: 200px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}
+.cul{
+    display: flex;
+    justify-content: space-around;
+
+}
+.inp{
+    border: none;
+    border-bottom: 1px solid #D5DDE0;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+    margin-top: 15px;
+    margin: 20px 0px 20px 0px;
+   
+}
+
+
+::-webkit-input-placeholder {color: #455273;}
+:focus::-webkit-input-placeholder {color: transparent}
+input:focus:not([type=submit]), textarea:focus {
+    outline: none;
+    border-bottom: 1px solid #D5DDE0;
+}
+
+
+
+.cul input{
+   width: 300px;
+}
+
+#zpd{
+    margin-top: 30px;
+    margin-left: 38px;
+    margin-bottom: 30px;
+    color: #455273;
+    width: 219px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.clb{
+    margin-left: 35px;
+    margin-top: 25px;
+    text-align: left;
+}
+.crug{
+    display: flex;
+    margin-left: 55px;
+    margin-top: -20px;
+}
+
+#crug-img{ 
+    position: relative;
+    left: -5px;
+}
+#crug-imp2{
+    position: relative;
+    left: 5px;
+}
+
+.data__block{
+    margin-top: 40px;;
+    display: inline-flex;
+    /* align-items:center; */
+}
+.voda{
+    margin-right: 50px;
+}
+
+.voda h1{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #455273;
+    margin-left: 20px;
+}
+
+
+
+.data__vr, h1{
+    text-align: left;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #455273;
+}
+
+
+
+.heg_weg{
+    width: 148px;
+    height: 170px;
+    margin-right: -25px;
+}
+
+
+
+.fnish__list{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 70px;;
+    padding: 0px 10px 0px 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #455273;
+}
+
+
+.btm{
+    color: #FFFFFF;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(0, 130, 236);
+    display: block;
+    margin-left: 32px;
+    margin-top: 40px;
+}
+
+
+.summa{
+    position: relative;
+    right: 30px;
+}
+
+
+#icons22{
+    padding: 3px;
+    
+}
+#den__one{
+margin-top: 23px;
+font-size: 12px;
+color: #BABDC2;
+}
+#den__one-two{
+    margin-top: -10px;
+    font-size: 12px;
+    color: #BABDC2;
+}
+#time__tr{
+    padding: 3px;
+}
+
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #D5DDE0; /* Цвет линии для остальных браузеров */
+    background-color: #D5DDE0; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+   }
+
+
+
+   
+ 
+.line  {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 677px;
+    border-bottom: 1px dashed #D5DDE0; /* Параметры линии */
+    height: 18px; 
+   }
